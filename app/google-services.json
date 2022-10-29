@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74840637208",
+    "project_id": "olympia-de54b",
+    "storage_bucket": "olympia-de54b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74840637208:android:b764af82e06b9f1e9c686d",
+        "android_client_info": {
+          "package_name": "com.example.olympia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74840637208-2lmiqj9b960c9i7fde298s9kv1kg7b3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0cQYehA4rp_89_ZFjfrjZuRCRq1_cxSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74840637208-2lmiqj9b960c9i7fde298s9kv1kg7b3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
