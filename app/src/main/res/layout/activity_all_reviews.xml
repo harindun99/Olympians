@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allReviews">
+
+    <ImageView
+        android:id="@+id/imageViewDD"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+    <ImageView
+        android:id="@+id/imageViewSC"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="128dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom_myr_btn"
+        android:text="back"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCL"
+        android:layout_width="158dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wings" />
+
+    <TextView
+        android:id="@+id/textViewCN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:text="OLYMPIA"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textASR"
+        android:layout_width="220dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:text="ALL SHOP REVIEWS"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <View-->
+<!--        android:id="@+id/viewbox1"-->
+<!--        android:layout_width="382dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:layout_marginTop="276dp"-->
+<!--        android:background="@drawable/custom_allmy_back"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.482"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewbox1"-->
+<!--        android:layout_width="351dp"-->
+<!--        android:layout_height="27dp"-->
+<!--        android:layout_marginTop="288dp"-->
+<!--        android:text="Sugath Fernando"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewbox11"-->
+<!--        android:layout_width="263dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_marginTop="320dp"-->
+<!--        android:text="Very useful application."-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.202"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RatingBar-->
+<!--        android:id="@+id/ratingBar1"-->
+<!--        style="?attr/ratingBarStyleSmall"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="17dp"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_marginEnd="285dp"-->
+<!--        android:layout_marginBottom="18dp"-->
+<!--        android:numStars="5"-->
+<!--        android:progressTint="#FFC107"-->
+<!--        android:rating="5"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/viewbox1"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/viewbox1"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/viewbox1"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/viewbox1"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/viewbox2"-->
+<!--        android:layout_width="382dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:layout_marginTop="408dp"-->
+<!--        android:background="@drawable/custom_allmy_back"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.551"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewbox2"-->
+<!--        android:layout_width="351dp"-->
+<!--        android:layout_height="27dp"-->
+<!--        android:layout_marginTop="420dp"-->
+<!--        android:text="Nirmali Perera"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewbox22"-->
+<!--        android:layout_width="262dp"-->
+<!--        android:layout_height="37dp"-->
+<!--        android:layout_marginTop="452dp"-->
+<!--        android:text="I like this application. Very easy to use."-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.201"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RatingBar-->
+<!--        android:id="@+id/ratingBar2"-->
+<!--        style="?attr/ratingBarStyleSmall"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="88dp"-->
+<!--        android:layout_marginEnd="286dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:numStars="5"-->
+<!--        android:progressTint="#FFC107"-->
+<!--        android:rating="3"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/viewbox2"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/viewbox2"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/viewbox2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/viewbox2"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/viewbox3"-->
+<!--        android:layout_width="382dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:layout_marginTop="540dp"-->
+<!--        android:background="@drawable/custom_allmy_back"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.551"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewbox3"-->
+<!--        android:layout_width="351dp"-->
+<!--        android:layout_height="27dp"-->
+<!--        android:layout_marginTop="552dp"-->
+<!--        android:text="Chamika Sadaruwan"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewbox33"-->
+<!--        android:layout_width="260dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_marginTop="584dp"-->
+<!--        android:text="Good application sports wears."-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.198"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <RatingBar-->
+<!--        android:id="@+id/ratingBar3"-->
+<!--        style="?attr/ratingBarStyleSmall"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="14dp"-->
+<!--        android:layout_marginTop="82dp"-->
+<!--        android:layout_marginEnd="288dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:numStars="5"-->
+<!--        android:progressTint="#FFC107"-->
+<!--        android:rating="5"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/viewbox3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/viewbox3"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/viewbox3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/viewbox3"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="405dp"
+        android:layout_height="455dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCN" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

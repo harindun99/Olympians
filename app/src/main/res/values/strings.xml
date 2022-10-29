@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Mobile</string>
+    <string name="ShopReviewTxt">SHOP REVIEW</string>
+    <string name="AllShopReviewsBtn">ALL SHOP REVIEWS</string>
+    <string name="RateOurApplicationBtn">RATE OUR APPLICATION</string>
+    <string name="MyReviewsBtn">MY REVIEWS</string>
+    <string name="EditYourReviewsBtn">EDIT YOUR REVIEWS</string>
+    <string name="AllShopReviewsTxt">ALL SHOP REVIEWS</string>
+    <string name="RateOurShopTxt">RATE OUR SHOP</string>
+    <string name="WriteaReviewTxt">Write a Review</string>
+    <string name="YourRateTxt">Your Rate</string>
+    <string name="SubmitBtn">SUBMIT</string>
+    <string name="EditYourReviewTxt">EDIT YOUR REVIEW</string>
+    <string name="ChangeRateTxt">Change Rate</string>
+    <string name="AddNewReviewTxt">Add new Review</string>
+    <string name="UpdateBtn">UPDATE</string>
+    <string name="DeleteBtn">DELETE</string>
+    <string name="MyReviewsTxt">MY REVIEWS</string>
+    <string name="EditBtn">EDIT</string>
+    <string name="NotificationsTxt">NOTIFICATIONS</string>
+    <string name="ViewBtn">VIEW</string>
+    <string name="OkBtn">OK</string>
+
+</resources>
+
+
+

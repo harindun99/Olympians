@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <targetSelectedWithDropDown>
+      <Target>
+        <type value="BOOT_WITH_SNAPSHOT_TARGET" />
+        <deviceKey>
+          <Key>
+            <type value="VIRTUAL_DEVICE_PATH" />
+            <value value="C:\Users\gawes\.android\avd\Pixel_5_API_30.avd" />
+          </Key>
+        </deviceKey>
+        <snapshotKey value="C:\Users\gawes\.android\avd\Pixel_5_API_30.avd\snapshots\snap_2022-10-29_12-55-32" />
+      </Target>
+    </targetSelectedWithDropDown>
+    <timeTargetWasSelectedWithDropDown value="2022-10-29T07:27:34.503887700Z" />
+  </component>
+</project>
