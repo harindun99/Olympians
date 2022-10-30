@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OLYMPIA</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="YourCartItemTxt">Your Cart Items</string>
+    <string name="olympia">OLYMPIA</string>
+    <string name="Totaltxt">Total=</string>
+    <string name="AddCardDetailstxt">Add Card Details</string>
+    <string name="Cancelbtn">CANCEL</string>
+    <string name="Savebtn">SAVE</string>
+    <string name="EditCardDetails">Edit Card Details</string>
+    <string name="Updatebtn">UPDATE</string>
+    <string name="PaymentTxt">Payment</string>
+    <string name="Paybtn">PAY</string>
+    <string name="SavedCardDetailsTxt">Saved Card Details</string>
+    <string name="Editbtn">EDIT</string>
+    <string name="Deletebtn">DELETE</string>
+    <string-array name="cardTypes">
+        <item>
+            Visa
+        </item>
+        <item>
+            Master
+        </item>
+    </string-array>
+
+</resources>
